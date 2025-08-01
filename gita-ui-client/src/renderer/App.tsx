@@ -1,12 +1,7 @@
-import './App.css'
-import TestCard from './components/TestCard'
+import AppLayout from './components/layout/AppLayout'
 
 const App = () => {
-  return (
-    <div className="min-h-screen bg-gray-100 p-4 font-sans">
-      <TestCard />
-    </div>
-  )
+  return <AppLayout />
 }
 
 export default App
