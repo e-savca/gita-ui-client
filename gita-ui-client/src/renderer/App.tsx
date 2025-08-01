@@ -1,7 +1,7 @@
-import AppLayout from './components/layout/AppLayout'
+import StartupScreen from './StartupScreen/StartupScreen'
 
 const App = () => {
-  return <AppLayout />
+  return <StartupScreen />
 }
 
 export default App
